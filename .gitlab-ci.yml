@@ -1,0 +1,21 @@
+---
+include:
+  - 'https://git.scc.kit.edu/m-team/ci-voodoo/raw/master/ci-include/generic-ci.yml'
+  - 'https://git.scc.kit.edu/m-team/ci-voodoo/raw/master/ci-include/pipeline-jobs-mkreveal.yml'
+
+# not sure if needed:
+# variables:
+#   MKDOCS_PROJECT_NAME: 'synergy-handbook'
+#   MKDOCS_SERVER_DIR: '/home/cicd-cvs/handbook.eosc-synergy.eu'
+#
+#   REPO_USER: 'cicd-cvs'
+#   REPO_HOST: 'cvs.data.kit.edu'
+
+# only needed when overridig the before_script
+# build-docs:
+#   extends:
+#     - .build-mkreveal-new
+#   before_script:
+#     - pip3 install mkdocs-exclude mkdocs-awesome-pages-plugin mkdocs-material
+
+
